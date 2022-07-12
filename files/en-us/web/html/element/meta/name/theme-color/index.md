@@ -29,6 +29,7 @@ _Image credit: from [Icons & Browser Colors](https://web.dev/icons-and-browser-c
 You can provide a media type or query inside the {{htmlattrxref("media", "meta")}} attribute; the color will then only be set if the media condition is true. For example:
 
 ```html
+<meta name="theme-color" content="red">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
 ```
